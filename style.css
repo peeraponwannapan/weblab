@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.menubar{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+}
+
+.menubar ul.menubar1{
+    list-style: none;
+    float: right;
+}
+.menubar ul.menubar1 li{
+    display: inline;
+    margin-right: 30px;
+    
+}
+.menubar ul.menubar1 li a{
+    color: white;
+    text-decoration: none;
+}
+.register1{
+    margin-top: 50px;
+    
+}
+.register1-text{
+    
+    min-width: 100px;
+    margin: 0 auto;
+    
+    
+}
+.register1 p{
+    
+    min-width: 100px;
+    margin: 0 auto;
+    margin-left: 38%;
+    
+}
+.register1 p{
+    
+    min-width: 100px;
+    margin: 0 auto;
+    margin-left: 38%;
+    
+}
+.register1 input{
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.register1 textarea{
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+}
+.register1 input.center{
+    
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.register1 input.center:hover{
+background-color: #333333;
+color:#fff;
+}
+

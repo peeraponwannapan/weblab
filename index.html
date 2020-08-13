@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bot Web</title>
+  </head>
+  <body>
+    <header>
+        <nav class="menubar">
+            <div class="container">
+            <ul class="menubar1">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="table.php">TABLE</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <section class="register">
+      <div class="container">
+        <div class="register1">
+          <form action="register.php" method="post">
+            <h1 align="center">Register User</h1>
+              <div class="register1-text">
+                <p>Email</p>
+              </div>
+                <input type="text" name="email" placeholder="Email"><br>
+                <!-- <td>Full name:</td> -->
+                <p>Full Name</p>
+                <input type="text" name="full_name" placeholder="Full Name"><br>
+                <!-- <td>Address:</td> -->
+                <p>Address</p>
+                <textarea name="address" placeholder="Address"></textarea>
+                <input type="submit" value="Submit" class="center">
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
