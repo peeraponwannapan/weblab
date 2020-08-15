@@ -25,6 +25,10 @@ $errors = array();
         if(count($errors) == 0){
             $sql="INSERT INTO register_users(email,full_name,address) VALUES('$email','$full_name','$address')";
             mysqli_query($conn,$sql);
+            echo "<script type='text/javascript'>";
+                echo "alert('Register success for $full_name at $email in $address');";
+                echo "window.location = 'index.html';";
+            echo "</script>";
             print("Register success for $full_name at $email in $address");
         }
     
